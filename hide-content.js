@@ -1,4 +1,5 @@
-kw = ['GOT', 'game of thrones', 'got spoiler', 'GoT', 'GOT Spoiler', 'Game of Thrones', 'GAME OF THRONES', 'death', 'DEAD', 'Dead', 'Died', 'DEATH', 'Death', 'DIED']
+kw = ['porn','sex','nude','desi','PORN','SEX','Bitch','Pussy','F*ck','Piss off','Dick','Asshole','b*tch','Bastard','C*nt','Bollocks','Bloody','Dick','motherfuck', 'cock', 'pussy', 'ass','dickhole']
+
 tags = "SPANEMBIULOLI";
 total = 0;
 
@@ -16,7 +17,7 @@ for(var ii = 0; ii < kw.length; ii++)
 }
 
 if(total >= 10) {
-	headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+	headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6 , p");
 	for(var i = 0; i < headings.length; i++) hideNode(headings[i]);
 }
 
@@ -28,7 +29,7 @@ function hideSpoiler(node) {
 				ancestor = ancestor.parentNode;	
 		imgs = ancestor.getElementsByTagName('img');
 		for(var i = 0; i < imgs.length; i++) 
-			imgs[i].style.webkitFilter = "blur(10px)"
+			imgs[i].style.webkitFilter = "blur(20px)"
 		lists = ancestor.getElementsByTagName('li');
 		for(var i = 0; i < lists.length; i++) hideNode(lists[i]);
 	}
@@ -43,6 +44,6 @@ function hideSpoiler(node) {
 }
 
 function hideNode(node) {
-	node.textContent = '[TEXT BLOCKED: SPOILER DETECTED]';
+	node.textContent = '[TEXT BLOCKED: ADULTCONTENT DETECTED]';
 	node.style.color = 'red'
 }
