@@ -4,7 +4,8 @@ This extension will save you from reading any Bad and Adult content words as wel
 
 I am not an expert with Google Chrome Development and this is my first extension made ever. 
 
-<img src="Without.PNG" alt="drawing" width="450"/>
+<img src="With.PNG" alt="drawing" width="700"/>
+
 
 # Features
 - **Worss Blocking**: Searches entire web page and replaces Bad or Adult content words with text `##[TEXT BLOCKED: ADULTCONTENT DETECTED]`
