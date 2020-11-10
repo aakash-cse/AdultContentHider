@@ -4,7 +4,7 @@ This extension will save you from reading any Bad and Adult content words as wel
 
 I am not an expert with Google Chrome Development and this is my first extension made ever. 
 
-<img src="With.PNG" alt="drawing" width="700"/>
+<img src="With.PNG" alt="drawing" width="900" height="450"/>
 
 
 # Features
